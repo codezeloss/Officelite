@@ -1,0 +1,22 @@
+{
+  "name": "officelite",
+  "version": "1.0.0",
+  "description": "![Design preview for the Officelite coming soon site coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elosscode/Officelite.git"
+  },
+  "author": "eloss.code",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elosscode/Officelite/issues"
+  },
+  "homepage": "https://github.com/elosscode/Officelite#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
