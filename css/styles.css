@@ -9,7 +9,11 @@ html {
 body {
   font-family: "Kumbh Sans", sans-serif;
   color: #000;
-  background-color: #f2f2f2; }
+  background-color: #f2f2f2;
+  background-image: url("/assets/home/bg-pattern-header.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 50%; }
 
 .container {
   max-width: 1110px;
@@ -105,7 +109,10 @@ body {
     margin-bottom: 32px; }
   .cta__card-spc {
     color: #fff;
-    background-color: #5175ff; }
+    background-color: #5175ff;
+    background-image: url("/assets/home/bg-pattern-pricing.svg");
+    background-repeat: no-repeat;
+    background-size: cover; }
   .cta__spc {
     color: #fff; }
 
@@ -151,3 +158,20 @@ body {
     font-size: 16px;
     color: #747b95;
     font-weight: bold; }
+
+.sign-up-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr; }
+
+.sign-up-box {
+  margin-right: -51rem;
+  z-index: 2; }
+
+.footer-sign-up {
+  background-color: #25293a;
+  width: 420px;
+  height: 1152px;
+  z-index: -1;
+  background-image: url("/assets/home/bg-pattern-footer.svg");
+  background-size: cover;
+  background-repeat: no-repeat; }

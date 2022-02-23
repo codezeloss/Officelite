@@ -54,6 +54,9 @@
   &__card-spc {
     color: #fff;
     background-color: $primary-light-color-1;
+    background-image: url("/assets/home/bg-pattern-pricing.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   &__spc {

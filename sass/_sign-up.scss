@@ -1,0 +1,19 @@
+.sign-up-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.sign-up-box {
+  margin-right: -51rem;
+  z-index: 2;
+}
+
+.footer-sign-up {
+  background-color: $primary-dark-color2;
+  width: 420px;
+  height: 1152px;
+  z-index: -1;
+  background-image: url("/assets/home/bg-pattern-footer.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
