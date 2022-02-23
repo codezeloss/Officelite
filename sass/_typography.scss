@@ -10,7 +10,55 @@ $secondary-light-color-2: #f05b5b;
 
 // Fonts
 $primary-font: "Kumbh Sans", sans-serif;
+// 400 700
 
 // Headings
 
 // General
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $primary-font;
+  color: #000;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.heading-primary {
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 64px;
+  margin-bottom: 24px;
+}
+
+.heading-secondary {
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 64px;
+  margin-bottom: 8px;
+}
+
+.btn {
+  border: none;
+  font-weight: bold;
+  border-radius: 28px;
+  font-size: 16px;
+}
+
+.start-btn {
+  background-color: $primary-light-color-1;
+  color: #fff;
+  padding: 14px 40px;
+}

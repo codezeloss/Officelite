@@ -1,0 +1,23 @@
+.footer-section {
+  background-color: $primary-dark-color2;
+  color: #fff;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 603px;
+
+  &__timer {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+  }
+
+  &__time {
+    display: flex;
+    flex-direction: row;
+  }
+}

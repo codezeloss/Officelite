@@ -1,0 +1,58 @@
+.cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+
+  &__btn {
+    background-color: #5275ff30;
+    color: $primary-light-color-1;
+    padding: 14px 41.5px;
+  }
+
+  &__btn-spc {
+    background-color: #fff;
+  }
+
+  &__card {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 13px;
+    width: 350px;
+    height: 508px;
+  }
+
+  &__level {
+    font-size: 20px;
+    color: $primary-dark-color-1;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+
+  &__users {
+    font-size: 16px;
+    color: $primary-dark-color-1;
+    margin-bottom: 56px;
+  }
+
+  &__detail {
+    color: $secondary-light-color-1;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 16px;
+  }
+
+  // Specific card
+  &__card-spc {
+    color: #fff;
+    background-color: $primary-light-color-1;
+  }
+
+  &__spc {
+    color: #fff;
+  }
+}
