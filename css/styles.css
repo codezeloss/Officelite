@@ -36,7 +36,11 @@ body {
 .start-btn {
   background-color: #5175ff;
   color: #fff;
-  padding: 14px 40px; }
+  padding: 14px 40px;
+  margin-bottom: 6rem; }
+
+.nav {
+  margin-top: 81px; }
 
 .hero {
   display: flex;
@@ -62,7 +66,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 30px; }
+  gap: 30px;
+  margin-bottom: -24rem; }
   .cta__btn {
     background-color: #5275ff30;
     color: #5175ff;
@@ -93,6 +98,8 @@ body {
     font-size: 16px;
     line-height: 28px;
     margin-bottom: 16px; }
+  .cta__detail-last {
+    margin-bottom: 32px; }
   .cta__card-spc {
     color: #fff;
     background-color: #5175ff; }
@@ -107,12 +114,37 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  height: 603px; }
+  align-items: end;
+  height: 603px;
+  padding-bottom: 91px; }
   .footer__timer {
     display: flex;
     flex-direction: column;
     margin-right: auto; }
   .footer__time {
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    gap: 16px; }
+  .footer__delay {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 48px;
+    letter-spacing: 5px; }
+    .footer__delay b {
+      color: #5175ff;
+      font-weight: normal; }
+  .footer__box {
+    background-color: #333950;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 13px 17px 17px;
+    border-radius: 13px; }
+  .footer__num {
+    font-size: 56px;
+    font-weight: bold; }
+  .footer__desc {
+    font-size: 16px;
+    color: #747b95;
+    font-weight: bold; }

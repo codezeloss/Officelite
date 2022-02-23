@@ -7,8 +7,9 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: end;
   height: 603px;
+  padding-bottom: 91px;
 
   &__timer {
     display: flex;
@@ -19,5 +20,39 @@
   &__time {
     display: flex;
     flex-direction: row;
+    gap: 16px;
+  }
+
+  &__delay {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 48px;
+    letter-spacing: 5px;
+
+    b {
+      color: $primary-light-color-1;
+      font-weight: normal;
+    }
+  }
+
+  &__box {
+    background-color: $primary-dark-color-1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 13px 17px 17px;
+    border-radius: 13px;
+  }
+
+  &__num {
+    font-size: 56px;
+    font-weight: bold;
+  }
+
+  &__desc {
+    font-size: 16px;
+    color: $secondary-light-color-1;
+    font-weight: bold;
   }
 }

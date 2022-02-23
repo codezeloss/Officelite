@@ -3,6 +3,7 @@
   flex-direction: row;
   justify-content: center;
   gap: 30px;
+  margin-bottom: -24rem;
 
   &__btn {
     background-color: #5275ff30;
@@ -44,6 +45,9 @@
     font-size: 16px;
     line-height: 28px;
     margin-bottom: 16px;
+  }
+  &__detail-last {
+    margin-bottom: 32px;
   }
 
   // Specific card
