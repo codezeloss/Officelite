@@ -60,6 +60,13 @@ body {
   @media only screen and (max-width: 1044px) {
     .nav {
       margin-top: 72px; } }
+  @media only screen and (max-width: 576px) {
+    .nav {
+      margin-top: 46px; } }
+  @media only screen and (max-width: 375px) {
+    .nav {
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
   .nav__logo {
     max-width: 155px;
     height: 30px; }
@@ -80,6 +87,10 @@ body {
       align-items: center;
       text-align: center;
       margin-bottom: 170px; } }
+  @media only screen and (max-width: 375px) {
+    .hero {
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
   .hero__detail {
     max-width: 540px; }
     @media only screen and (max-width: 1044px) {
@@ -114,6 +125,9 @@ body {
 
 .mrg-1 {
   margin-top: 102px; }
+  @media only screen and (max-width: 576px) {
+    .mrg-1 {
+      margin-top: 80px; } }
 
 .mrg-2 {
   margin-top: 154px; }
@@ -133,6 +147,10 @@ body {
   @media only screen and (max-width: 700px) {
     .cta {
       margin-bottom: -79rem; } }
+  @media only screen and (max-width: 375px) {
+    .cta {
+      padding-left: 1.8rem;
+      padding-right: 1.8rem; } }
   .cta__btn {
     background-color: #5275ff15;
     color: #5175ff;
@@ -256,6 +274,9 @@ body {
     line-height: 48px;
     letter-spacing: 5px;
     font-weight: bold; }
+    @media only screen and (max-width: 576px) {
+      .footer__delay {
+        margin-bottom: 18px; } }
     .footer__delay b {
       color: #5175ff;
       font-weight: bold; }
@@ -269,6 +290,9 @@ body {
   .footer__num {
     font-size: 56px;
     font-weight: bold; }
+    @media only screen and (max-width: 576px) {
+      .footer__num {
+        font-size: 32px; } }
   .footer__desc {
     font-size: 16px;
     color: #747b95;

@@ -16,6 +16,11 @@
     margin-bottom: 170px;
   }
 
+  @media only screen and (max-width: 375px) {
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+  }
+
   &__detail {
     max-width: 540px;
 
@@ -61,6 +66,10 @@
 
 .mrg-1 {
   margin-top: 102px;
+
+  @media only screen and (max-width: 576px) {
+    margin-top: 80px;
+  }
 }
 .mrg-2 {
   margin-top: 154px;

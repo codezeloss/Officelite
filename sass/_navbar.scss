@@ -7,6 +7,15 @@
     margin-top: 72px;
   }
 
+  @media only screen and (max-width: 576px) {
+    margin-top: 46px;
+  }
+
+  @media only screen and (max-width: 375px) {
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+  }
+
   &__logo {
     max-width: 155px;
     height: 30px;
