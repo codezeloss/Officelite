@@ -267,7 +267,7 @@ body {
   z-index: -1;
   background-image: url("/assets/home/bg-pattern-footer.svg");
   background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 0rem;
-  right: 10%; }
+  background-repeat: no-repeat; }
+
+.hidden {
+  display: none; }
