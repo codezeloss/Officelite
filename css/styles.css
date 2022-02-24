@@ -31,13 +31,17 @@ body {
   border: none;
   font-weight: bold;
   border-radius: 28px;
-  font-size: 16px; }
+  font-size: 16px;
+  cursor: pointer; }
 
 .start-btn {
   background-color: #5175ff;
   color: #fff;
   padding: 14px 40px;
   margin-bottom: 6rem; }
+
+.start-btn:hover {
+  background-color: #829cff; }
 
 .nav {
   margin-top: 81px; }
@@ -81,6 +85,8 @@ body {
     background-color: #5275ff15;
     color: #5175ff;
     padding: 14px 41.5px; }
+  .cta__btn:hover {
+    color: #829cff; }
   .cta__btn-spc {
     background-color: #fff; }
   .cta__card {

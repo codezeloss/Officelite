@@ -59,6 +59,7 @@ body {
   font-weight: bold;
   border-radius: 28px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .start-btn {
@@ -66,4 +67,8 @@ body {
   color: #fff;
   padding: 14px 40px;
   margin-bottom: 6rem;
+}
+
+.start-btn:hover {
+  background-color: $primary-light-color-2;
 }

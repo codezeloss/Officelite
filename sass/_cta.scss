@@ -10,6 +10,9 @@
     color: $primary-light-color-1;
     padding: 14px 41.5px;
   }
+  &__btn:hover {
+    color: $primary-light-color-2;
+  }
 
   &__btn-spc {
     background-color: #fff;
