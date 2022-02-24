@@ -8,6 +8,33 @@
   z-index: 2;
 }
 
+//
+
+// Home page timer colors
+.num-color-1 {
+  color: #fff;
+}
+.bk-color-1 {
+  background-color: $primary-dark-color-1;
+}
+// Sign up page timer colors
+.num-color-2 {
+  color: $primary-light-color-1;
+}
+.bk-color-2 {
+  background-color: #5275ff15;
+}
+
+//
+
+// Form
+.form {
+  background-color: rgb(203, 236, 247);
+  padding: 2rem;
+  width: 445px;
+  height: 508px;
+}
+
 .footer-sign-up {
   background-color: $primary-dark-color2;
   width: 420px;
