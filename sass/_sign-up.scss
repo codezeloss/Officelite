@@ -34,6 +34,7 @@
   width: 445px;
   height: 508px;
   border-radius: 13px;
+  position: relative;
 }
 
 .input-box {
@@ -52,21 +53,27 @@
 .margin-bt {
   margin-bottom: 24px;
 }
+// .margin-bt-2 {
+//   margin-bottom: 8px;
+// }
+.no-border {
+  border-bottom: none;
+}
+.unique {
+  border-bottom: 0.2px solid #747b9569;
+  padding-bottom: 17px;
+}
 
 .form-btn {
   width: 100%;
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 0.2px solid #747b9569;
   background-color: #fff;
   font-family: $primary-font;
   font-size: 16px;
   color: #000;
   font-weight: bold;
-  padding-left: 16px;
-  padding-bottom: 17px;
-  padding-right: 15px;
   cursor: pointer;
 
   display: flex;
@@ -81,6 +88,22 @@
 .list-icon {
   width: 11px;
   height: 5.5px;
+}
+
+.selection-list {
+  background-color: #fff;
+  width: 367px;
+  height: 198px;
+  border: 1px solid #5275ff15;
+  padding: 32px;
+  border-radius: 8px;
+  position: absolute;
+  top: 23rem;
+  right: 4rem;
+}
+.padd {
+  padding-left: 16px;
+  padding-right: 15px;
 }
 
 //
@@ -109,4 +132,11 @@
   background-image: url("/assets/home/bg-pattern-footer.svg");
   background-size: cover;
   background-repeat: no-repeat;
+  position: absolute;
+  top: 0rem;
+  right: 10%;
 }
+
+// .hidden {
+//   display: none;
+// }
