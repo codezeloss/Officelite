@@ -38,6 +38,14 @@ body {
 .container {
   max-width: 1110px;
   margin: 0 auto;
+
+  @media only screen and (max-width: 1044px) {
+    max-width: 689px;
+  }
+
+  @media only screen and (max-width: 700px) {
+    text-align: center;
+  }
 }
 
 .heading-primary {
@@ -45,6 +53,11 @@ body {
   font-size: 56px;
   line-height: 64px;
   margin-bottom: 24px;
+
+  @media only screen and (max-width: 1044px) {
+    font-size: 40px;
+    line-height: 48px;
+  }
 }
 
 .heading-secondary {

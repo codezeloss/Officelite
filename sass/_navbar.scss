@@ -1,5 +1,11 @@
 .nav {
   margin-top: 81px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  @media only screen and (max-width: 1044px) {
+    margin-top: 72px;
+  }
 
   &__logo {
     max-width: 155px;

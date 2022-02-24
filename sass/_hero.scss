@@ -2,12 +2,31 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 95px;
+  gap: 63px;
   margin-bottom: 184px;
   position: relative;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  @media only screen and (max-width: 700px) {
+    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 170px;
+  }
 
   &__detail {
     max-width: 540px;
+
+    @media only screen and (max-width: 1044px) {
+      max-width: 345px;
+      height: 352px;
+    }
+
+    @media only screen and (max-width: 700px) {
+      max-width: 572px;
+    }
   }
 
   &__description {
@@ -17,11 +36,26 @@
     font-family: $primary-font;
     font-weight: 400;
     margin-bottom: 32px;
+
+    @media only screen and (max-width: 1044px) {
+      font-size: 16px;
+      line-height: 26px;
+    }
   }
 
   &__illustration {
-    max-width: 475px;
-    max-height: 531px;
+    width: 475px;
+    height: 531px;
+
+    @media only screen and (max-width: 1044px) {
+      width: 281px;
+      height: 314px;
+    }
+
+    @media only screen and (max-width: 700px) {
+      width: 80%;
+      height: 100%;
+    }
   }
 }
 

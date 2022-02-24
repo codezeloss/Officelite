@@ -4,6 +4,17 @@
   justify-content: center;
   gap: 30px;
   margin-bottom: -24.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  @media only screen and (max-width: 1044px) {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 700px) {
+    margin-bottom: -79rem;
+  }
 
   &__btn {
     background-color: #5275ff15;
@@ -28,6 +39,25 @@
     border-radius: 13px;
     width: 350px;
     height: 508px;
+
+    @media only screen and (max-width: 1044px) {
+      width: 689px;
+      height: 316px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 2fr 1fr;
+      align-items: flex-end;
+    }
+
+    @media only screen and (max-width: 700px) {
+      width: 350px;
+      height: 508px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
   }
 
   &__level {
@@ -35,12 +65,28 @@
     color: $primary-dark-color-1;
     font-weight: bold;
     margin-bottom: 40px;
+
+    @media only screen and (max-width: 1044px) {
+      margin-bottom: 20px;
+    }
+
+    @media only screen and (max-width: 700px) {
+      margin-bottom: 40px;
+    }
   }
 
   &__users {
     font-size: 16px;
     color: $primary-dark-color-1;
     margin-bottom: 56px;
+
+    @media only screen and (max-width: 1044px) {
+      margin-bottom: 20px;
+    }
+
+    @media only screen and (max-width: 700px) {
+      margin-bottom: 56px;
+    }
   }
 
   &__detail {
@@ -60,6 +106,17 @@
     background-image: url("/assets/home/bg-pattern-pricing.svg");
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  &__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+
+    @media only screen and (max-width: 700px) {
+      margin-bottom: 0rem;
+    }
   }
 
   &__spc {
