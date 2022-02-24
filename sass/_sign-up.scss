@@ -28,12 +28,64 @@
 //
 
 // Form
-.form {
-  background-color: rgb(203, 236, 247);
-  padding: 2rem;
+.sign-up-form {
+  background-color: #fff;
+  padding: 40px;
   width: 445px;
   height: 508px;
+  border-radius: 13px;
 }
+
+.input-box {
+  width: 100%;
+  padding-left: 16px;
+  padding-bottom: 17px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 0.2px solid $secondary-light-color-1;
+  font-family: $primary-font;
+  font-size: 16px;
+  line-height: 28px;
+  color: $secondary-light-color-1;
+}
+.margin-bt {
+  margin-bottom: 24px;
+}
+.form-btn {
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 0.2px solid $secondary-light-color-1;
+  background-color: #fff;
+  font-family: $primary-font;
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+  padding-left: 16px;
+  padding-bottom: 17px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form-cta-btn {
+  background-color: $primary-light-color-1;
+  color: #fff;
+  font-family: $primary-font;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 28px;
+  border: none;
+  border-radius: 28px;
+  width: 100%;
+  height: 56px;
+  margin-top: 40px;
+}
+
+//
 
 .footer-sign-up {
   background-color: $primary-dark-color2;
