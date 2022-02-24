@@ -3,7 +3,6 @@
   flex-direction: row;
   justify-content: center;
   gap: 95px;
-  margin-top: 102px;
   margin-bottom: 184px;
   position: relative;
 
@@ -24,4 +23,11 @@
     max-width: 475px;
     max-height: 531px;
   }
+}
+
+.mrg-1 {
+  margin-top: 102px;
+}
+.mrg-2 {
+  margin-top: 154px;
 }
