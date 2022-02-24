@@ -271,6 +271,9 @@ body {
   margin-top: 40px;
   cursor: pointer; }
 
+.form-cta-btn:hover {
+  background-color: #829cff; }
+
 .footer-sign-up {
   background-color: #25293a;
   width: 100%;
