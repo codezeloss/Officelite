@@ -16,7 +16,7 @@ body {
   margin: 0 auto; }
   @media only screen and (max-width: 1044px) {
     .container {
-      max-width: 689px; } }
+      max-width: 685px; } }
   @media only screen and (max-width: 700px) {
     .container {
       text-align: center; } }
@@ -92,14 +92,11 @@ body {
       padding-left: 1.8rem;
       padding-right: 1.8rem; } }
   .hero__detail {
-    max-width: 540px; }
+    width: 540px; }
     @media only screen and (max-width: 1044px) {
       .hero__detail {
-        max-width: 345px;
+        width: 345px;
         height: 352px; } }
-    @media only screen and (max-width: 700px) {
-      .hero__detail {
-        max-width: 572px; } }
   .hero__description {
     font-size: 18px;
     line-height: 28px;
@@ -107,10 +104,6 @@ body {
     font-family: "Kumbh Sans", sans-serif;
     font-weight: 400;
     margin-bottom: 32px; }
-    @media only screen and (max-width: 1044px) {
-      .hero__description {
-        font-size: 16px;
-        line-height: 26px; } }
   .hero__illustration {
     width: 475px;
     height: 531px; }
@@ -301,10 +294,23 @@ body {
 .sign-up-grid {
   display: grid;
   grid-template-columns: 2fr 1fr; }
+  @media only screen and (max-width: 1044px) {
+    .sign-up-grid {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center; } }
 
 .sign-up-box {
   margin-right: -51rem;
   z-index: 2; }
+  @media only screen and (max-width: 1190px) {
+    .sign-up-box {
+      margin-right: -35rem; } }
+  @media only screen and (max-width: 1044px) {
+    .sign-up-box {
+      margin-right: 0rem; } }
 
 .num-color-1 {
   color: #fff; }
@@ -325,6 +331,14 @@ body {
   height: 508px;
   border-radius: 13px;
   position: relative; }
+  @media only screen and (max-width: 1044px) {
+    .sign-up-form {
+      margin: 0 auto; } }
+  @media only screen and (max-width: 479px) {
+    .sign-up-form {
+      width: 327px;
+      height: 465px;
+      padding: 28px; } }
 
 .input-box {
   width: 100%;
@@ -383,6 +397,11 @@ body {
   position: absolute;
   top: 23rem;
   right: 4rem; }
+  @media only screen and (max-width: 479px) {
+    .selection-list {
+      width: 327px;
+      padding: 28px;
+      right: 0rem; } }
 
 .padd {
   padding-left: 16px;
@@ -405,6 +424,11 @@ body {
 .form-cta-btn:hover {
   background-color: #829cff; }
 
+@media only screen and (max-width: 1044px) {
+  .footer-clock {
+    justify-content: center;
+    align-items: center; } }
+
 .footer-sign-up {
   background-color: #25293a;
   width: 100%;
@@ -416,3 +440,57 @@ body {
 
 .hidden {
   display: none; }
+
+@media only screen and (max-width: 910px) {
+  .flex-cl {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+@media only screen and (max-width: 1135px) {
+  .no-mrg {
+    margin-right: 0rem; } }
+
+@media only screen and (max-width: 1135px) {
+  .ch-height {
+    height: 852px; } }
+
+@media only screen and (max-width: 1044px) {
+  .to-left {
+    text-align: left; } }
+
+@media only screen and (max-width: 1010px) {
+  .re-size {
+    font-size: 32px; } }
+
+@media only screen and (max-width: 910px) {
+  .align-it {
+    text-align: center; } }
+
+@media only screen and (max-width: 1010px) {
+  .not-align-it {
+    justify-content: flex-start; } }
+
+@media only screen and (max-width: 1010px) {
+  .not-align-it {
+    justify-content: center; } }
+
+@media only screen and (max-width: 1010px) {
+  .mrg-top {
+    margin-top: 46px; } }
+
+@media only screen and (max-width: 1010px) {
+  .mrg-top-2 {
+    margin-top: 75px; } }
+
+@media only screen and (max-width: 910px) {
+  .ch-width {
+    width: 80%; } }
+
+@media only screen and (max-width: 910px) {
+  .mrg-btm {
+    margin-bottom: -44rem; } }
+
+@media only screen and (max-width: 635px) {
+  .mrg-btm {
+    margin-top: 10rem; } }

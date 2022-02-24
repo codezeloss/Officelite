@@ -1,11 +1,27 @@
 .sign-up-grid {
   display: grid;
   grid-template-columns: 2fr 1fr;
+
+  @media only screen and (max-width: 1044px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 .sign-up-box {
   margin-right: -51rem;
   z-index: 2;
+
+  @media only screen and (max-width: 1190px) {
+    margin-right: -35rem;
+  }
+
+  @media only screen and (max-width: 1044px) {
+    margin-right: 0rem;
+  }
 }
 
 //
@@ -35,6 +51,16 @@
   height: 508px;
   border-radius: 13px;
   position: relative;
+
+  @media only screen and (max-width: 1044px) {
+    margin: 0 auto;
+  }
+
+  @media only screen and (max-width: 479px) {
+    width: 327px;
+    height: 465px;
+    padding: 28px;
+  }
 }
 
 .input-box {
@@ -100,6 +126,12 @@
   position: absolute;
   top: 23rem;
   right: 4rem;
+
+  @media only screen and (max-width: 479px) {
+    width: 327px;
+    padding: 28px;
+    right: 0rem;
+  }
 }
 .padd {
   padding-left: 16px;
@@ -125,6 +157,13 @@
   background-color: $primary-light-color-2;
 }
 
+.footer-clock {
+  @media only screen and (max-width: 1044px) {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 //
 
 .footer-sign-up {
@@ -143,3 +182,89 @@
 .hidden {
   display: none;
 }
+
+// Media queries
+.flex-cl {
+  @media only screen and (max-width: 910px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.no-mrg {
+  @media only screen and (max-width: 1135px) {
+    margin-right: 0rem;
+  }
+}
+
+.ch-height {
+  @media only screen and (max-width: 1135px) {
+    height: 852px;
+  }
+}
+
+.to-left {
+  @media only screen and (max-width: 1044px) {
+    text-align: left;
+  }
+}
+
+.re-size {
+  @media only screen and (max-width: 1010px) {
+    font-size: 32px;
+  }
+}
+
+.align-it {
+  @media only screen and (max-width: 910px) {
+    text-align: center;
+  }
+}
+
+.not-align-it {
+  @media only screen and (max-width: 1010px) {
+    justify-content: flex-start;
+  }
+
+  @media only screen and (max-width: 1010px) {
+    justify-content: center;
+  }
+
+  // @media only screen and (max-width: 685px) {
+  //   justify-content: center;
+  // }
+}
+
+.mrg-top {
+  @media only screen and (max-width: 1010px) {
+    margin-top: 46px;
+  }
+}
+.mrg-top-2 {
+  @media only screen and (max-width: 1010px) {
+    margin-top: 75px;
+  }
+}
+
+.ch-width {
+  @media only screen and (max-width: 910px) {
+    width: 80%;
+  }
+}
+
+.mrg-btm {
+  @media only screen and (max-width: 910px) {
+    margin-bottom: -44rem;
+  }
+
+  @media only screen and (max-width: 635px) {
+    margin-top: 10rem;
+  }
+}
+
+// .mrg-top-3 {
+//   @media only screen and (max-width: 479px) {
+//     margin-top: 80px;
+//   }
+// }
