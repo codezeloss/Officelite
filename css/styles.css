@@ -9,11 +9,7 @@ html {
 body {
   font-family: "Kumbh Sans", sans-serif;
   color: #000;
-  background-color: #f2f2f2;
-  background-image: url("/assets/home/bg-pattern-header.svg");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 50%; }
+  background-color: #f2f2f2; }
 
 .container {
   max-width: 1110px;
@@ -193,7 +189,7 @@ body {
   border-left: none;
   border-top: none;
   border-right: none;
-  border-bottom: 0.2px solid #747b95;
+  border-bottom: 0.2px solid #747b9569;
   font-family: "Kumbh Sans", sans-serif;
   font-size: 16px;
   line-height: 28px;
@@ -207,7 +203,7 @@ body {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 0.2px solid #747b95;
+  border-bottom: 0.2px solid #747b9569;
   background-color: #fff;
   font-family: "Kumbh Sans", sans-serif;
   font-size: 16px;
@@ -215,9 +211,20 @@ body {
   font-weight: bold;
   padding-left: 16px;
   padding-bottom: 17px;
+  padding-right: 15px;
+  cursor: pointer;
   display: flex;
   flex-direction: row;
   justify-content: space-between; }
+
+.free {
+  color: #747b95;
+  opacity: 0.4;
+  margin-left: 8px; }
+
+.list-icon {
+  width: 11px;
+  height: 5.5px; }
 
 .form-cta-btn {
   background-color: #5175ff;
@@ -230,7 +237,8 @@ body {
   border-radius: 28px;
   width: 100%;
   height: 56px;
-  margin-top: 40px; }
+  margin-top: 40px;
+  cursor: pointer; }
 
 .footer-sign-up {
   background-color: #25293a;

@@ -43,7 +43,7 @@
   border-left: none;
   border-top: none;
   border-right: none;
-  border-bottom: 0.2px solid $secondary-light-color-1;
+  border-bottom: 0.2px solid #747b9569;
   font-family: $primary-font;
   font-size: 16px;
   line-height: 28px;
@@ -52,12 +52,13 @@
 .margin-bt {
   margin-bottom: 24px;
 }
+
 .form-btn {
   width: 100%;
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 0.2px solid $secondary-light-color-1;
+  border-bottom: 0.2px solid #747b9569;
   background-color: #fff;
   font-family: $primary-font;
   font-size: 16px;
@@ -65,12 +66,24 @@
   font-weight: bold;
   padding-left: 16px;
   padding-bottom: 17px;
+  padding-right: 15px;
+  cursor: pointer;
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+.free {
+  color: $secondary-light-color-1;
+  opacity: 0.4;
+  margin-left: 8px;
+}
+.list-icon {
+  width: 11px;
+  height: 5.5px;
+}
 
+//
 .form-cta-btn {
   background-color: $primary-light-color-1;
   color: #fff;
@@ -83,6 +96,7 @@
   width: 100%;
   height: 56px;
   margin-top: 40px;
+  cursor: pointer;
 }
 
 //
