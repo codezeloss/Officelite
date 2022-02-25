@@ -75,6 +75,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   gap: 63px;
   margin-bottom: 184px;
   position: relative;
