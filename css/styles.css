@@ -459,6 +459,10 @@ body {
   .ch-height {
     height: 852px; } }
 
+@media only screen and (max-width: 479px) {
+  .ch-height {
+    height: 552px; } }
+
 @media only screen and (max-width: 1044px) {
   .to-left {
     text-align: left; } }
