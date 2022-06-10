@@ -1,26 +1,48 @@
 "use strict";
 
-const formBtn = document.getElementById("form-list");
-const selectionMenu = document.querySelector(".selection-list");
-const choiceClick01 = document.querySelector(".choice-01");
-const choiceClick02 = document.querySelector(".choice-02");
-const choiceClick03 = document.querySelector(".choice-03");
-const listIcon = document.querySelector(".list-icon");
-const choiceBox = document.getElementById("choice-box");
+const days = document.querySelector(".days");
+const hours = document.querySelector(".hours");
+const mins = document.querySelector(".mins");
+const secs = document.querySelector(".secs");
 
-formBtn.addEventListener("click", function () {
-  selectionMenu.classList.toggle("hidden");
-});
+// Timer
 
-choiceClick01.addEventListener("click", function () {
-  selectionMenu.classList.add("hidden");
-  choiceBox.innerHTML = choiceClick01.innerHTML;
-});
-choiceClick02.addEventListener("click", function () {
-  selectionMenu.classList.add("hidden");
-  choiceBox.innerHTML = choiceClick02.innerHTML;
-});
-choiceClick03.addEventListener("click", function () {
-  selectionMenu.classList.add("hidden");
-  choiceBox.innerHTML = choiceClick03.innerHTML;
-});
+// secs
+function secsCountDown() {
+  secs.innerHTML -= 1;
+
+  if (secs.innerHTML === "0") {
+    clearInterval(secsCounter);
+  }
+}
+let secsCounter = setInterval(secsCountDown, 1000);
+
+// mins
+function minsCountDown() {
+  mins.innerHTML -= 1;
+
+  if (mins.innerHTML === "0") {
+    clearInterval(minsCounter);
+  }
+}
+let minsCounter = setInterval(minsCountDown, 60000);
+
+// hours
+function hoursCountDown() {
+  hours.innerHTML -= 1;
+
+  if (hours.innerHTML === "0") {
+    clearInterval(hoursCounter);
+  }
+}
+let hoursCounter = setInterval(hoursCountDown, 3600000);
+
+// days
+function daysCountDown() {
+  days.innerHTML -= 1;
+
+  if (days.innerHTML === "0") {
+    clearInterval(daysCounter);
+  }
+}
+let daysCounter = setInterval(daysCountDown, 86400000);
