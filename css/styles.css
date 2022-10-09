@@ -582,6 +582,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 }
 
@@ -660,5 +661,19 @@ body {
 @media only screen and (max-width: 635px) {
   .mrg-btm {
     margin-top: 17rem;
+  }
+
+  .footer__box {
+    width: 68px;
+  }
+
+  .footer__num {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 377px) {
+  .heading-primary {
+    font-size: 36px;
   }
 }
