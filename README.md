@@ -1,6 +1,6 @@
 # Frontend Mentor - Officelite coming soon site
 
-Live: [link](https://elosscode.github.io/Officelite/)
+Live: [link](https://codezeloss.github.io/Officelite/)
 
 ![Design preview for the Officelite coming soon site coding challenge](./preview.jpg)
 
